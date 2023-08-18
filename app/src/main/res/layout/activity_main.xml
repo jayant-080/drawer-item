@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Home"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_home_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/home"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Countries"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/country"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Universities"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_school_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/university"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Courses"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_menu_book_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/courses"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Fav Universities"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_star_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/favuniversity"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Compare University"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_difference_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/compare_university"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Package Calculator"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_calculate_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/packagecalculator"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="News and Media"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_perm_media_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/media"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="My Downloads"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_download_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/downloads"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:text="Communication"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Book Counselling"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_supervisor_account_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/book_counselling"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Call Us"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/callus"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Request a call"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_phone_callback_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/rrequestcall"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:text="Social Media"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Facebook"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_supervisor_account_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/facebook"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Instagram"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/instagram"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:text="Information"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="About us"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_info_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/aboutus"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Services"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/services"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Contact us"
+            android:padding="10dp"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/contactus"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
